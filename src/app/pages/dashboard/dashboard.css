@@ -1,0 +1,18 @@
+:host {
+  display: block;
+  background-color: white;
+  border-top: 5px solid #cc0000;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 40px auto;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+  margin: 15px 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}

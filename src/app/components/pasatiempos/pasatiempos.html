@@ -1,0 +1,19 @@
+<h2>Pasatiempos</h2>
+
+<form [formGroup]="pasatiemposForm">
+
+  <div formArrayName="pasatiempos">
+
+    @for (pasatiempo of pasatiempos.controls; track $index; let i = $index) {
+      <div>
+        <label>Pasatiempo {{ i + 1 }}: </label>
+        <input type="text" formControlName="{{i}}">
+      </div>
+    }
+
+  </div>
+
+  <br>
+  <button type="button" (click)="agregarPasatiempo()">Añadir otro pasatiempo</button>
+
+</form>

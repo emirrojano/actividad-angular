@@ -1,0 +1,38 @@
+:host {
+  display: block;
+  background-color: white;
+  border-top: 5px solid #cc0000;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+div {
+  margin-bottom: 15px; 
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+fieldset {
+  margin-top: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
